@@ -27,7 +27,7 @@ export default function Home() {
           </nav>
           <div className="text-center p-10 py-10"> 
             <h2 className='text-5xl py-2 text-teal-600 font-medium'>Fabian Navarro</h2>
-            <h3 className='Text-2xl py-2'>Developer and designer.</h3>
+            <h3 className='Text-2xl py-2'>Professional Developer and Designer</h3>
             <p className='text-md py-5 leading-8 text-gray-800'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, dicta aperiam? Maxime corrupti possimus nihil tempore repudiandae, suscipit laborum excepturi. Est vitae provident voluptas numquam modi maxime natus explicabo repellat. 
             </p>
           </div>
