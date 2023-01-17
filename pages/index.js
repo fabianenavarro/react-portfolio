@@ -2,7 +2,11 @@ import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillTwitterCircle, AiFillLinkedin} from 'react-icons/ai';
 import Image from "next/image";
-import deved from '../public/fabio-wave.png';
+import devFabe from '../public/fabio-wave.png';
+import design from '../public/design.png';
+import code from '../public/code.png';
+import consulting from '../public/consulting.png';
+
 
 export default function Home() {
   return (
@@ -36,14 +40,20 @@ export default function Home() {
             <AiFillTwitterCircle />
           </div>
           <div className= "relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
-            <Image src={deved}/>
+            <Image src={devFabe}/>
           </div>
         </section>
         
         <section>
           <div>
             <h3 classname="text-3xl py-1">Services I offer:</h3>
-            <p className='text-md py-5 leading-8 text-gray-800'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus, saepe architecto repudiandae, ut repellendus quis dolorem minima, magni at quidem. Dicta necessitatibus ad corporis veritatis deserunt cupiditate voluptates pariatur?</p>
+            <p className='text-md py-5 leading-8 text-gray-800'>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus, saepe architecto repudiandae, ut repellendus quis dolorem minima, magni at quidem. Dicta necessitatibus ad corporis veritatis deserunt cupiditate voluptates pariatur?
+            </p>
+          </div>
+          <div>
+           <Image src={design} width={100} height={100}/>
+          
 
           </div>
         </section>
@@ -54,4 +64,3 @@ export default function Home() {
 }
 
 
-//31:49
