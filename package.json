@@ -1,8 +1,11 @@
 {
+ "homepage": "http://fabianenavarro.github.io/react-portfolio",
  "name": "react-portfolio",
  "version": "0.1.0",
  "private": true,
  "scripts": {
+    "predeploy": "npm run build",
+    "deplohy": "gh-pages -d bild"
   "dev": "next dev",
   "build": "next build",
   "start": "next start",
