@@ -46,17 +46,25 @@ export default function Home() {
         
         <section>
           <div>
-            <h3 classname="text-3xl py-1">Services I offer:</h3>
+            <h3 className="text-3xl py-1">Services I offer:</h3>
             <p className='text-md py-5 leading-8 text-gray-800'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus, saepe architecto repudiandae, ut repellendus quis dolorem minima, magni at quidem. Dicta necessitatibus ad corporis veritatis deserunt cupiditate voluptates pariatur?
             </p>
           </div>
-          <div>
+          <div className="text-center shadow-lg p-10 rounded-xl my-10">
            <Image src={design} width={100} height={100}/>
-          
-
+           <h3 className="text-lg font-medium pt-8 pb-2">
+            Beautiful designs
+           </h3>
+           <p className="py-2">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. At dicta odit amet incidunt. Mollitia expedita alias veritatis soluta tempora doloribus magni deserunt, nulla laudantium, culpa perferendis accusamus numquam neque eaque.
+           </p>
+           <h4 className="py-4 text-teal-600">Design tools I use</h4>
+            <p  className=" text-gray-800 py-1 ">Photoshop</p>
+            <p  className=" text-gray-800 py-1 ">Photoshop</p>
+            <p  className=" text-gray-800 py-1 ">Photoshop</p>
           </div>
-        </section>
+        </section> 
 
       </main>
     </div>
