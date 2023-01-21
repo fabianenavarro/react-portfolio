@@ -7,11 +7,7 @@ import webDev from '../public/webDev.png';
 import ITS from '../public/ITS.png';
 import ITC from '../public/ITC.png';
 import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+
 import {useState} from "react";
 
 
@@ -28,7 +24,7 @@ export default function Home() {
       <main className=' bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40'>
         <section className="min-h-screen">
           <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className='text-xl font-burtons'>DevelopedByFabian</h1>
+            <h1 className='text-xl font-burtons dark:text-white'>DevelopedByFabian</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill 
@@ -36,19 +32,26 @@ export default function Home() {
                 className="cursor-pointer text-2xl dark:text-white"/>
               </li>
               <li>
-                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="#">Resume</a></li>
+                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="#">
+                  Resume
+                </a>
+              </li>
             </ul>
           </nav>
           <div className="text-center p-10 py-10"> 
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl lg:text-7xl'>Fabian Navarro</h2>
-            <h3 className='Text-2xl py-2 md:text-3xl lg:text-4xl'>Developer and IT Professional</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto'>
+            <h3 className='Text-2xl py-2 md:text-3xl lg:text-4xl dark:text-white'>Developer and IT Professional</h3>
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white'>
             Hey there, my name is Fabian Navarro. I graduated with a degree in Computer Science and have a lot of experience in the IT field. I enjoy working on web development projects, IT services, and consulting. If you need help in any of these areas, I'd be happy to lend a hand. 
             </p>
           </div>
-          <div className='text-5xl flex justify-center gap-16 py-2 text-gray-600'>
+          <div className='text-5xl flex justify-center gap-16  text-gray-600'>
+            <a href="https://www.linkedin.com/in/fabiannavarrotech/">
             <AiFillLinkedin />
+            </a>
+            <a href="https://twitter.com/Fabian_Navarr0">
             <AiFillTwitterCircle />
+            </a>
           </div>
           <div className= "relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={devFabe}/>
@@ -57,8 +60,8 @@ export default function Home() {
         
         <section>
           <div>
-            <h3 className="text-3xl py-1">Services I Offer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800'>
+            <h3 className="text-3xl py-1 dark:text-white">Services I Offer</h3>
+            <p className='text-md py-5 leading-8 text-gray-800 dark:text-white'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus, saepe architecto repudiandae, ut repellendus quis dolorem minima, magni at quidem. Dicta necessitatibus ad corporis veritatis deserunt cupiditate voluptates pariatur?
             </p>
           </div>
@@ -112,8 +115,8 @@ export default function Home() {
         </section> 
         <section>
           <div>
-            <h3 className="text-3xl py-1">Portfolio</h3>
-            <p className='text-md py-5 leading-8 text-gray-800'>
+            <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
+            <p className='text-md py-5 leading-8 text-gray-800 dark:text-white'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint accusamus, saepe architecto repudiandae, ut repellendus quis dolorem minima, magni at quidem. Dicta necessitatibus ad corporis veritatis deserunt cupiditate voluptates pariatur?
             </p>
           </div>
