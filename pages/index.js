@@ -23,7 +23,7 @@ export default function Home() {
       
       <main className=' bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40'>
         <section className="min-h-screen">
-          <nav className='py-10 mb-12 flex justify-between'>
+          <nav className='mb-12 flex justify-between'>
             <h1 className='text-xl font-burtons dark:text-white'>DevelopedByFabian</h1>
             <ul className="flex items-center">
               <li>
@@ -34,9 +34,13 @@ export default function Home() {
 
             </ul>
           </nav>
-          <div className="text-center p-10 py-10"> 
-            <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl lg:text-7xl'>Fabian Navarro</h2>
-            <h3 className='Text-2xl py-2 md:text-3xl lg:text-4xl dark:text-white'>Developer and IT Professional</h3>
+          <div className="text-center"> 
+            <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl lg:text-7xl'>
+              Fabian Navarro
+            </h2>
+            <h3 className='Text-2xl py-2 md:text-3xl lg:text-4xl dark:text-white'>
+              Developer and IT Professional
+            </h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white'>
             Hey there, my name is Fabian Navarro. I graduated with a degree in Computer Science and have a lot of experience in the IT field. I enjoy working on web development projects, IT services, and consulting. If you need help in any of these areas, I'd be happy to lend a hand. 
             </p>
@@ -53,15 +57,15 @@ export default function Home() {
             </a>
             
           </div>
-          <div className= "relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
+          <div className= "relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-6 overflow-hidden md:h-96 md:w-96">
             <Image src={devFabe}/>
           </div>
         </section>
         
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white">Services I Offer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 dark:text-white'>
+            <h3 className="text-3xl dark:text-white">Services I Offer</h3>
+            <p className='text-md py-3 leading-8 text-gray-800 dark:text-white'>
             I provide a wide range of IT services, including web development, technical support, and consulting. Whether you're facing a specific IT challenge or simply need guidance, I'm here to help.
             </p>
           </div>
@@ -75,7 +79,7 @@ export default function Home() {
               I can assist in creating a professional and marketable website for your small business or personal portfolio.
               </p>
               <h4 className="py-4 text-teal-600">Perfect for</h4>
-              <p className="text-gray-800 py-1">Business websites</p>
+              <p className="text-gray-800 py-1">Business</p>
               <p className="text-gray-800 py-1">Portfolios</p>
               <p className="text-gray-800 py-1">Marketing</p>
               <p className="text-gray-800 py-1">Job Search</p>
@@ -88,7 +92,7 @@ export default function Home() {
               <p className="py-2">
               If you're having difficulties with your home or office technology, my IT services are an excellent solution for you.
               </p>
-              <h4 className="py-4 text-teal-600">IT solutions for:</h4>
+              <h4 className="py-4 text-teal-600">IT solutions including</h4>
               <p className="text-gray-800 py-1">Computer systems</p>
               <p className="text-gray-800 py-1">Operating systems</p>
               <p className="text-gray-800 py-1">Software</p>
