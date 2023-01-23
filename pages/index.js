@@ -24,12 +24,14 @@ export default function Home() {
       <main className=' bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40'>
         <section className="min-h-screen">
           <nav className='mb-12 flex justify-between'>
-            <h1 className='text-xl font-burtons dark:text-white'>DevelopedByFabian</h1>
+            <h1 className='text-xl font-burtons dark:text-white md:text-2xl'>
+              DevelopedByFabian
+            </h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill 
                 onClick={() => setDarkMode(!darkMode)} 
-                className="cursor-pointer text-2xl dark:text-white"/>
+                className="cursor-pointer text-xl dark:text-white md:text-2xl"/>
               </li>
 
             </ul>
