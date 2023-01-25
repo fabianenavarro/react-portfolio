@@ -6,7 +6,7 @@ import devFabe from '../public/fabio-wave.png';
 import webDev from '../public/webDev.png';
 import ITS from '../public/ITS.png';
 import ITC from '../public/ITC.png';
-import web1 from "../public/web1.png";
+
 
 import {useState} from "react";
 
@@ -46,7 +46,14 @@ export default function Home() {
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white'>
             Hey there, my name is Fabian Navarro. I graduated with a degree in Computer Science and have a lot of experience in the IT field. I enjoy working on web development projects, IT services, and consulting. If you need help in any of these areas, I'd be happy to lend a hand. 
             </p>
+
+          <div className= "relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80  overflow-hidden md:h-96 md:w-96">
+            <Image src={devFabe}/>
+           </div>
+          
+
           </div>
+
           <div className='text-5xl flex justify-center gap-16  text-gray-600 dark:text-white'>
             <a href="https://www.linkedin.com/in/fabiannavarrotech/">
             <AiFillLinkedin />
@@ -59,13 +66,15 @@ export default function Home() {
             </a>
             
           </div>
-          <div className= "relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-6 overflow-hidden md:h-96 md:w-96">
-            <Image src={devFabe}/>
-          </div>
+
+          
+          
         </section>
         
         <section>
           <div>
+          <h3 className="text-xl dark:text-white">Phone: 361-236-5411</h3>
+          <h3 className="text-xl dark:text-white">Email: fabianenavarro@yahoo.com</h3>
             <h3 className="text-3xl dark:text-white">Services I Offer</h3>
             <p className='text-md py-3 leading-8 text-gray-800 dark:text-white'>
             I provide a wide range of IT services, including web development, technical support, and consulting. Whether you're facing a specific IT challenge or simply need guidance, I'm here to help.
@@ -117,12 +126,12 @@ export default function Home() {
           </div>
         </section> 
         <section>
-          <div>
+        <div>
             <h3 className="text-3xl py-1 dark:text-white">Contact Information</h3>
             <p className='text-xl py-5 leading-8 text-gray-800 dark:text-white'>
-            If you need my help please email me at fabianenavarro@yahoo.com or contact me at 361-455-2705. 
+            If you need my help please email me at fabianenavarro@yahoo.com or contact me at 361-236-5411. 
             </p>
-          </div>
+        </div>
         </section>
 
       </main>
