@@ -36,7 +36,7 @@ export default function Home() {
         </nav>
 
         <div className="text-center"> 
-          <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl lg:text-7xl'>
+          <h2 className='text-5xl py-2 text-green-600 font-medium md:text-6xl lg:text-7xl'>
             Fabian Navarro
           </h2>
           <h3 className='Text-2xl py-2 md:text-3xl lg:text-4xl dark:text-white'>
@@ -47,7 +47,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className= "relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80  overflow-hidden md:h-96 md:w-96">
+        <div className= "relative mx-auto bg-gradient-to-b from-green-800 rounded-full w-80 h-80  overflow-hidden md:h-96 md:w-96">
           <Image src={devFabe}/>
         </div>
 
@@ -66,9 +66,9 @@ export default function Home() {
       
       <section>
         <div>
-        <h3 className="text-xl mt-1 dark:text-white">Phone: 361-236-5411</h3>
-        <h3 className="text-xl mt-1 dark:text-white">Email: fabianenavarro@yahoo.com</h3>
-        <h3 className="text-3xl dark:text-white">Services I Offer</h3>
+        <h3 className="text-xl mt-1 dark:text-white"><span className="text-xl mt-1 text-green-600">Phone: </span>361-236-5411</h3>
+        <h3 className="text-xl mt-1 dark:text-white"><span className="text-xl mt-1 text-green-600">Email: </span>fabianenavarro@yahoo.com</h3>
+        <h3 className="text-3xl mt-2 text-center dark:text-green-600">Services I Offer</h3>
           <p className='text-md py-3 leading-8 text-gray-800 dark:text-white'>
           I provide a wide range of IT services, including web development, technical support, and consulting. Whether you're facing a specific IT challenge or simply need guidance, I'm here to help.
           </p>
@@ -82,7 +82,7 @@ export default function Home() {
             <p className="py-2">
             I can assist in creating a professional and marketable website for your small business or personal portfolio.
             </p>
-            <h4 className="py-4 text-teal-600">Perfect for</h4>
+            <h4 className="py-4 text-green-600">Perfect for</h4>
             <p className="text-gray-800 py-1">Business</p>
             <p className="text-gray-800 py-1">Portfolios</p>
             <p className="text-gray-800 py-1">Marketing</p>
@@ -96,7 +96,7 @@ export default function Home() {
             <p className="py-2">
             If you're having difficulties with your home or office technology, my IT services are an excellent solution for you.
             </p>
-            <h4 className="py-4 text-teal-600">IT solutions including</h4>
+            <h4 className="py-4 text-green-600">IT solutions including</h4>
             <p className="text-gray-800 py-1">Computer systems</p>
             <p className="text-gray-800 py-1">Operating systems</p>
             <p className="text-gray-800 py-1">Software</p>
@@ -110,7 +110,7 @@ export default function Home() {
             <p className="py-2">
             My consulting services provide cost-effective technology solutions for your at-home or small business needs.
             </p>
-            <h4 className="py-4 text-teal-600">Featuring</h4>
+            <h4 className="py-4 text-green-600">Featuring</h4>
             <p className="text-gray-800 py-1">End-user communication</p>
             <p className="text-gray-800 py-1">Home security solutions</p>
             <p className="text-gray-800 py-1">Office systems</p>
@@ -120,9 +120,9 @@ export default function Home() {
       </section> 
       <section>
       <div>
-          <h3 className="text-3xl py-1 dark:text-white">Contact Information</h3>
+          <h3 className="text-3xl py-1 text-green-600">Contact Information</h3>
           <p className='text-xl py-5 leading-8 text-gray-800 dark:text-white'>
-          If you need my help please email me at fabianenavarro@yahoo.com or contact me at 361-236-5411. 
+          If you need my help please email me at <span className= "text-green-600">fabianenavarro@yahoo.com</span> or contact me at <span className= "text-green-600">361-236-5411</span>. 
           </p>
       </div>
       </section>
